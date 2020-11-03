@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CE745B092551056600BEF903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B082551056600BEF903 /* AppDelegate.m */; };
-		CE745B0C2551056600BEF903 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B0B2551056600BEF903 /* SceneDelegate.m */; };
 		CE745B0F2551056600BEF903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B0E2551056600BEF903 /* ViewController.m */; };
-		CE745B122551056600BEF903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE745B102551056600BEF903 /* Main.storyboard */; };
 		CE745B142551056A00BEF903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE745B132551056A00BEF903 /* Assets.xcassets */; };
 		CE745B172551056A00BEF903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE745B152551056A00BEF903 /* LaunchScreen.storyboard */; };
 		CE745B1A2551056A00BEF903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B192551056A00BEF903 /* main.m */; };
 		CE745B242551056A00BEF903 /* iOSPrincipleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B232551056A00BEF903 /* iOSPrincipleTests.m */; };
 		CE745B2F2551056B00BEF903 /* iOSPrincipleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B2E2551056B00BEF903 /* iOSPrincipleUITests.m */; };
+		CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4825510F0700BEF903 /* BPresentHeaderModel.m */; };
+		CE745B5425510F0700BEF903 /* BPresendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4925510F0700BEF903 /* BPresendHeaderView.m */; };
+		CE745B5525510F0700BEF903 /* BPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4A25510F0700BEF903 /* BPresentController.m */; };
+		CE745B5725510F0700BEF903 /* BPresentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4C25510F0700BEF903 /* BPresentModel.m */; };
+		CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4D25510F0700BEF903 /* BPresentItemModel.m */; };
+		CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4E25510F0700BEF903 /* BPWebViewController.m */; };
+		CE745B65255115A900BEF903 /* SRPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B64255115A900BEF903 /* SRPController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +44,8 @@
 		CE745B042551056600BEF903 /* iOSPrinciple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPrinciple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE745B072551056600BEF903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE745B082551056600BEF903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE745B0A2551056600BEF903 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CE745B0B2551056600BEF903 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CE745B0D2551056600BEF903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE745B0E2551056600BEF903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE745B112551056600BEF903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE745B132551056A00BEF903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE745B162551056A00BEF903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE745B182551056A00BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,21 @@
 		CE745B2A2551056B00BEF903 /* iOSPrincipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPrincipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE745B2E2551056B00BEF903 /* iOSPrincipleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPrincipleUITests.m; sourceTree = "<group>"; };
 		CE745B302551056B00BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE745B4625510F0700BEF903 /* BPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPWebViewController.h; sourceTree = "<group>"; };
+		CE745B4725510F0700BEF903 /* BPresentItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentItemModel.h; sourceTree = "<group>"; };
+		CE745B4825510F0700BEF903 /* BPresentHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentHeaderModel.m; sourceTree = "<group>"; };
+		CE745B4925510F0700BEF903 /* BPresendHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresendHeaderView.m; sourceTree = "<group>"; };
+		CE745B4A25510F0700BEF903 /* BPresentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentController.m; sourceTree = "<group>"; };
+		CE745B4B25510F0700BEF903 /* BPresentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentHeaderView.m; sourceTree = "<group>"; };
+		CE745B4C25510F0700BEF903 /* BPresentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentModel.m; sourceTree = "<group>"; };
+		CE745B4D25510F0700BEF903 /* BPresentItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentItemModel.m; sourceTree = "<group>"; };
+		CE745B4E25510F0700BEF903 /* BPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPWebViewController.m; sourceTree = "<group>"; };
+		CE745B4F25510F0700BEF903 /* BPresentHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentHeaderModel.h; sourceTree = "<group>"; };
+		CE745B5025510F0700BEF903 /* BPresentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentModel.h; sourceTree = "<group>"; };
+		CE745B5125510F0700BEF903 /* BPresentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentHeaderView.h; sourceTree = "<group>"; };
+		CE745B5225510F0700BEF903 /* BPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentController.h; sourceTree = "<group>"; };
+		CE745B63255115A900BEF903 /* SRPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRPController.h; sourceTree = "<group>"; };
+		CE745B64255115A900BEF903 /* SRPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRPController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +123,15 @@
 			children = (
 				CE745B072551056600BEF903 /* AppDelegate.h */,
 				CE745B082551056600BEF903 /* AppDelegate.m */,
-				CE745B0A2551056600BEF903 /* SceneDelegate.h */,
-				CE745B0B2551056600BEF903 /* SceneDelegate.m */,
 				CE745B0D2551056600BEF903 /* ViewController.h */,
 				CE745B0E2551056600BEF903 /* ViewController.m */,
-				CE745B102551056600BEF903 /* Main.storyboard */,
+				CE745B4525510F0700BEF903 /* BasePresent */,
+				CE745B3F25510CDD00BEF903 /* SRP */,
+				CE745B4025510D0000BEF903 /* OCP */,
+				CE745B4125510D1900BEF903 /* LSP */,
+				CE745B4425510D7A00BEF903 /* LOM */,
+				CE745B4225510D2100BEF903 /* ISP */,
+				CE745B4325510D2800BEF903 /* DIP */,
 				CE745B132551056A00BEF903 /* Assets.xcassets */,
 				CE745B152551056A00BEF903 /* LaunchScreen.storyboard */,
 				CE745B182551056A00BEF903 /* Info.plist */,
@@ -135,6 +156,70 @@
 				CE745B302551056B00BEF903 /* Info.plist */,
 			);
 			path = iOSPrincipleUITests;
+			sourceTree = "<group>";
+		};
+		CE745B3F25510CDD00BEF903 /* SRP */ = {
+			isa = PBXGroup;
+			children = (
+				CE745B63255115A900BEF903 /* SRPController.h */,
+				CE745B64255115A900BEF903 /* SRPController.m */,
+			);
+			path = SRP;
+			sourceTree = "<group>";
+		};
+		CE745B4025510D0000BEF903 /* OCP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OCP;
+			sourceTree = "<group>";
+		};
+		CE745B4125510D1900BEF903 /* LSP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSP;
+			sourceTree = "<group>";
+		};
+		CE745B4225510D2100BEF903 /* ISP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ISP;
+			sourceTree = "<group>";
+		};
+		CE745B4325510D2800BEF903 /* DIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DIP;
+			sourceTree = "<group>";
+		};
+		CE745B4425510D7A00BEF903 /* LOM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LOM;
+			sourceTree = "<group>";
+		};
+		CE745B4525510F0700BEF903 /* BasePresent */ = {
+			isa = PBXGroup;
+			children = (
+				CE745B5225510F0700BEF903 /* BPresentController.h */,
+				CE745B4A25510F0700BEF903 /* BPresentController.m */,
+				CE745B4725510F0700BEF903 /* BPresentItemModel.h */,
+				CE745B4D25510F0700BEF903 /* BPresentItemModel.m */,
+				CE745B4F25510F0700BEF903 /* BPresentHeaderModel.h */,
+				CE745B4825510F0700BEF903 /* BPresentHeaderModel.m */,
+				CE745B4925510F0700BEF903 /* BPresendHeaderView.m */,
+				CE745B5125510F0700BEF903 /* BPresentHeaderView.h */,
+				CE745B4B25510F0700BEF903 /* BPresentHeaderView.m */,
+				CE745B5025510F0700BEF903 /* BPresentModel.h */,
+				CE745B4C25510F0700BEF903 /* BPresentModel.m */,
+				CE745B4625510F0700BEF903 /* BPWebViewController.h */,
+				CE745B4E25510F0700BEF903 /* BPWebViewController.m */,
+			);
+			path = BasePresent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +326,6 @@
 			files = (
 				CE745B172551056A00BEF903 /* LaunchScreen.storyboard in Resources */,
 				CE745B142551056A00BEF903 /* Assets.xcassets in Resources */,
-				CE745B122551056600BEF903 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +353,13 @@
 				CE745B0F2551056600BEF903 /* ViewController.m in Sources */,
 				CE745B092551056600BEF903 /* AppDelegate.m in Sources */,
 				CE745B1A2551056A00BEF903 /* main.m in Sources */,
-				CE745B0C2551056600BEF903 /* SceneDelegate.m in Sources */,
+				CE745B65255115A900BEF903 /* SRPController.m in Sources */,
+				CE745B5425510F0700BEF903 /* BPresendHeaderView.m in Sources */,
+				CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */,
+				CE745B5725510F0700BEF903 /* BPresentModel.m in Sources */,
+				CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */,
+				CE745B5525510F0700BEF903 /* BPresentController.m in Sources */,
+				CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +395,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE745B102551056600BEF903 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE745B112551056600BEF903 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE745B152551056A00BEF903 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,9 +529,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrinciple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,9 +547,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrinciple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
