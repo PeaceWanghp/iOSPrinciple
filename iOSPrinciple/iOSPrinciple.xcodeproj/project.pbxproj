@@ -21,6 +21,15 @@
 		CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4D25510F0700BEF903 /* BPresentItemModel.m */; };
 		CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4E25510F0700BEF903 /* BPWebViewController.m */; };
 		CE745B65255115A900BEF903 /* SRPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B64255115A900BEF903 /* SRPController.m */; };
+		CE745B8625519E9D00BEF903 /* OCPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B8525519E9D00BEF903 /* OCPController.m */; };
+		CE745B8D2552795F00BEF903 /* OCPMother.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B8C2552795F00BEF903 /* OCPMother.m */; };
+		CE745B93255279BB00BEF903 /* OCPBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B92255279BB00BEF903 /* OCPBook.m */; };
+		CE745B9925527A1D00BEF903 /* OCPNewspaper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B9825527A1D00BEF903 /* OCPNewspaper.m */; };
+		CE745B9F2552873F00BEF903 /* LSPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B9E2552873F00BEF903 /* LSPController.m */; };
+		CE745BA525528A4C00BEF903 /* LSPAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BA425528A4C00BEF903 /* LSPAnimal.m */; };
+		CE745BAB25528ACE00BEF903 /* LSPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BAA25528ACE00BEF903 /* LSPCat.m */; };
+		CE745BB125528ADE00BEF903 /* LSPDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BB025528ADE00BEF903 /* LSPDog.m */; };
+		CE745BB725528C0900BEF903 /* LSPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BB625528C0900BEF903 /* LSPPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +80,25 @@
 		CE745B5225510F0700BEF903 /* BPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentController.h; sourceTree = "<group>"; };
 		CE745B63255115A900BEF903 /* SRPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRPController.h; sourceTree = "<group>"; };
 		CE745B64255115A900BEF903 /* SRPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRPController.m; sourceTree = "<group>"; };
+		CE745B8425519E9D00BEF903 /* OCPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPController.h; sourceTree = "<group>"; };
+		CE745B8525519E9D00BEF903 /* OCPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPController.m; sourceTree = "<group>"; };
+		CE745B8A2552792500BEF903 /* OCPReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPReader.h; sourceTree = "<group>"; };
+		CE745B8B2552795F00BEF903 /* OCPMother.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPMother.h; sourceTree = "<group>"; };
+		CE745B8C2552795F00BEF903 /* OCPMother.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPMother.m; sourceTree = "<group>"; };
+		CE745B91255279BB00BEF903 /* OCPBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPBook.h; sourceTree = "<group>"; };
+		CE745B92255279BB00BEF903 /* OCPBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPBook.m; sourceTree = "<group>"; };
+		CE745B9725527A1D00BEF903 /* OCPNewspaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPNewspaper.h; sourceTree = "<group>"; };
+		CE745B9825527A1D00BEF903 /* OCPNewspaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPNewspaper.m; sourceTree = "<group>"; };
+		CE745B9D2552873F00BEF903 /* LSPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPController.h; sourceTree = "<group>"; };
+		CE745B9E2552873F00BEF903 /* LSPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPController.m; sourceTree = "<group>"; };
+		CE745BA325528A4C00BEF903 /* LSPAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPAnimal.h; sourceTree = "<group>"; };
+		CE745BA425528A4C00BEF903 /* LSPAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPAnimal.m; sourceTree = "<group>"; };
+		CE745BA925528ACE00BEF903 /* LSPCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPCat.h; sourceTree = "<group>"; };
+		CE745BAA25528ACE00BEF903 /* LSPCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPCat.m; sourceTree = "<group>"; };
+		CE745BAF25528ADE00BEF903 /* LSPDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPDog.h; sourceTree = "<group>"; };
+		CE745BB025528ADE00BEF903 /* LSPDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPDog.m; sourceTree = "<group>"; };
+		CE745BB525528C0900BEF903 /* LSPPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPPerson.h; sourceTree = "<group>"; };
+		CE745BB625528C0900BEF903 /* LSPPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +198,15 @@
 		CE745B4025510D0000BEF903 /* OCP */ = {
 			isa = PBXGroup;
 			children = (
+				CE745B8425519E9D00BEF903 /* OCPController.h */,
+				CE745B8525519E9D00BEF903 /* OCPController.m */,
+				CE745B8A2552792500BEF903 /* OCPReader.h */,
+				CE745B8B2552795F00BEF903 /* OCPMother.h */,
+				CE745B8C2552795F00BEF903 /* OCPMother.m */,
+				CE745B91255279BB00BEF903 /* OCPBook.h */,
+				CE745B92255279BB00BEF903 /* OCPBook.m */,
+				CE745B9725527A1D00BEF903 /* OCPNewspaper.h */,
+				CE745B9825527A1D00BEF903 /* OCPNewspaper.m */,
 			);
 			path = OCP;
 			sourceTree = "<group>";
@@ -177,6 +214,16 @@
 		CE745B4125510D1900BEF903 /* LSP */ = {
 			isa = PBXGroup;
 			children = (
+				CE745B9D2552873F00BEF903 /* LSPController.h */,
+				CE745B9E2552873F00BEF903 /* LSPController.m */,
+				CE745BA325528A4C00BEF903 /* LSPAnimal.h */,
+				CE745BA425528A4C00BEF903 /* LSPAnimal.m */,
+				CE745BA925528ACE00BEF903 /* LSPCat.h */,
+				CE745BAA25528ACE00BEF903 /* LSPCat.m */,
+				CE745BAF25528ADE00BEF903 /* LSPDog.h */,
+				CE745BB025528ADE00BEF903 /* LSPDog.m */,
+				CE745BB525528C0900BEF903 /* LSPPerson.h */,
+				CE745BB625528C0900BEF903 /* LSPPerson.m */,
 			);
 			path = LSP;
 			sourceTree = "<group>";
@@ -353,13 +400,22 @@
 				CE745B0F2551056600BEF903 /* ViewController.m in Sources */,
 				CE745B092551056600BEF903 /* AppDelegate.m in Sources */,
 				CE745B1A2551056A00BEF903 /* main.m in Sources */,
+				CE745B9F2552873F00BEF903 /* LSPController.m in Sources */,
+				CE745BB125528ADE00BEF903 /* LSPDog.m in Sources */,
+				CE745B93255279BB00BEF903 /* OCPBook.m in Sources */,
 				CE745B65255115A900BEF903 /* SRPController.m in Sources */,
 				CE745B5425510F0700BEF903 /* BPresendHeaderView.m in Sources */,
+				CE745BB725528C0900BEF903 /* LSPPerson.m in Sources */,
+				CE745BA525528A4C00BEF903 /* LSPAnimal.m in Sources */,
 				CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */,
 				CE745B5725510F0700BEF903 /* BPresentModel.m in Sources */,
 				CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */,
+				CE745BAB25528ACE00BEF903 /* LSPCat.m in Sources */,
 				CE745B5525510F0700BEF903 /* BPresentController.m in Sources */,
 				CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */,
+				CE745B8625519E9D00BEF903 /* OCPController.m in Sources */,
+				CE745B9925527A1D00BEF903 /* OCPNewspaper.m in Sources */,
+				CE745B8D2552795F00BEF903 /* OCPMother.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

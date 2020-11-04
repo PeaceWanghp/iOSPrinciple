@@ -8,6 +8,8 @@
 #import "ViewController.h"
 
 #import "SRPController.h"
+#import "OCPController.h"
+#import "LSPController.h"
 
 @interface ViewController ()
 
@@ -39,8 +41,8 @@
     
     [self.model appendOpenedHeader:@"Principle(设计原则):"];
     [self.model appendDarkItemWithTitle:@"Single Responsibility Principle\n(单一职责原则)" class:[SRPController class]];
-    [self.model appendDarkItemTitle:@"Open Close Principle\n(开闭原则)" target:self selector:@selector(todo)];
-    [self.model appendDarkItemTitle:@"Liskow Substitution Principle\n(里氏替换原则)" target:self selector:@selector(todo)];
+    [self.model appendDarkItemWithTitle:@"Open Close Principle\n(开闭原则)" class:[OCPController class]];
+    [self.model appendDarkItemWithTitle:@"Liskow Substitution Principle\n(里氏替换原则)" class:[LSPController class]];
     [self.model appendDarkItemTitle:@"Law of Demeter\n(迪米特法则)" target:self selector:@selector(todo)];
     [self.model appendDarkItemTitle:@"Interface Segregation Principle\n(接口隔离原则)" target:self selector:@selector(todo)];
     [self.model appendDarkItemTitle:@"Dependncy Inversion Principle\n(依赖反转原则)" target:self selector:@selector(todo)];
