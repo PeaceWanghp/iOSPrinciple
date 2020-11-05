@@ -10,6 +10,7 @@
 #import "SRPController.h"
 #import "OCPController.h"
 #import "LSPController.h"
+#import "LODController.h"
 #import "ISPController.h"
 #import "DIPController.h"
 
@@ -45,9 +46,10 @@
     [self.model appendDarkItemWithTitle:@"Single Responsibility Principle\n(单一职责原则)" class:[SRPController class]];
     [self.model appendDarkItemWithTitle:@"Open Close Principle\n(开闭原则)" class:[OCPController class]];
     [self.model appendDarkItemWithTitle:@"Liskow Substitution Principle\n(里氏替换原则)" class:[LSPController class]];
-    [self.model appendItemTitle:@"Law of Demeter\n(迪米特法则)" target:self selector:@selector(todo)];
+    [self.model appendDarkItemWithTitle:@"Law Of Demeter\n(迪米特法则)" class:[LODController class]];
     [self.model appendDarkItemWithTitle:@"Interface Segregation Principle\n(接口隔离原则)" class:[ISPController class]];
     [self.model appendDarkItemWithTitle:@"Dependncy Inversion Principle\n(依赖反转原则)" class:[DIPController class]];
+    [self.model appendDarkItemWithTitle:@"合成复用原则" class:[UIViewController class]];
 }
 
 @end
