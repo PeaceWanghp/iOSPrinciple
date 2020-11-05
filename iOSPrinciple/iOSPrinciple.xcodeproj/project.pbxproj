@@ -30,6 +30,12 @@
 		CE745BAB25528ACE00BEF903 /* LSPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BAA25528ACE00BEF903 /* LSPCat.m */; };
 		CE745BB125528ADE00BEF903 /* LSPDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BB025528ADE00BEF903 /* LSPDog.m */; };
 		CE745BB725528C0900BEF903 /* LSPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BB625528C0900BEF903 /* LSPPerson.m */; };
+		CE745BBD25528F8F00BEF903 /* ISPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745BBC25528F8F00BEF903 /* ISPController.m */; };
+		CE745C032554449400BEF903 /* DIPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C022554449400BEF903 /* DIPController.m */; };
+		CE745C092554452700BEF903 /* DIPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C082554452700BEF903 /* DIPPlayer.m */; };
+		CE745C152554456900BEF903 /* DIPFord.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C142554456900BEF903 /* DIPFord.m */; };
+		CE745C1B2554458200BEF903 /* DIPBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C1A2554458200BEF903 /* DIPBenz.m */; };
+		CE745C212554459600BEF903 /* DIPChery.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C202554459600BEF903 /* DIPChery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +105,22 @@
 		CE745BB025528ADE00BEF903 /* LSPDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPDog.m; sourceTree = "<group>"; };
 		CE745BB525528C0900BEF903 /* LSPPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPPerson.h; sourceTree = "<group>"; };
 		CE745BB625528C0900BEF903 /* LSPPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPPerson.m; sourceTree = "<group>"; };
+		CE745BBB25528F8F00BEF903 /* ISPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISPController.h; sourceTree = "<group>"; };
+		CE745BBC25528F8F00BEF903 /* ISPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISPController.m; sourceTree = "<group>"; };
+		CE745BC125529CB500BEF903 /* ISPInterfaceOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISPInterfaceOne.h; sourceTree = "<group>"; };
+		CE745BC225529CCC00BEF903 /* ISPInterfaceTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISPInterfaceTwo.h; sourceTree = "<group>"; };
+		CE745BC325529CE000BEF903 /* ISPInterfaceThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISPInterfaceThree.h; sourceTree = "<group>"; };
+		CE745C012554449400BEF903 /* DIPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPController.h; sourceTree = "<group>"; };
+		CE745C022554449400BEF903 /* DIPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPController.m; sourceTree = "<group>"; };
+		CE745C072554452700BEF903 /* DIPPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPPlayer.h; sourceTree = "<group>"; };
+		CE745C082554452700BEF903 /* DIPPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPPlayer.m; sourceTree = "<group>"; };
+		CE745C132554456900BEF903 /* DIPFord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPFord.h; sourceTree = "<group>"; };
+		CE745C142554456900BEF903 /* DIPFord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPFord.m; sourceTree = "<group>"; };
+		CE745C192554458200BEF903 /* DIPBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPBenz.h; sourceTree = "<group>"; };
+		CE745C1A2554458200BEF903 /* DIPBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPBenz.m; sourceTree = "<group>"; };
+		CE745C1F2554459600BEF903 /* DIPChery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPChery.h; sourceTree = "<group>"; };
+		CE745C202554459600BEF903 /* DIPChery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPChery.m; sourceTree = "<group>"; };
+		CE745C28255445C300BEF903 /* DIPCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPCar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +253,11 @@
 		CE745B4225510D2100BEF903 /* ISP */ = {
 			isa = PBXGroup;
 			children = (
+				CE745BBB25528F8F00BEF903 /* ISPController.h */,
+				CE745BBC25528F8F00BEF903 /* ISPController.m */,
+				CE745BC125529CB500BEF903 /* ISPInterfaceOne.h */,
+				CE745BC225529CCC00BEF903 /* ISPInterfaceTwo.h */,
+				CE745BC325529CE000BEF903 /* ISPInterfaceThree.h */,
 			);
 			path = ISP;
 			sourceTree = "<group>";
@@ -238,6 +265,17 @@
 		CE745B4325510D2800BEF903 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				CE745C012554449400BEF903 /* DIPController.h */,
+				CE745C022554449400BEF903 /* DIPController.m */,
+				CE745C072554452700BEF903 /* DIPPlayer.h */,
+				CE745C082554452700BEF903 /* DIPPlayer.m */,
+				CE745C28255445C300BEF903 /* DIPCar.h */,
+				CE745C132554456900BEF903 /* DIPFord.h */,
+				CE745C142554456900BEF903 /* DIPFord.m */,
+				CE745C192554458200BEF903 /* DIPBenz.h */,
+				CE745C1A2554458200BEF903 /* DIPBenz.m */,
+				CE745C1F2554459600BEF903 /* DIPChery.h */,
+				CE745C202554459600BEF903 /* DIPChery.m */,
 			);
 			path = DIP;
 			sourceTree = "<group>";
@@ -399,8 +437,10 @@
 			files = (
 				CE745B0F2551056600BEF903 /* ViewController.m in Sources */,
 				CE745B092551056600BEF903 /* AppDelegate.m in Sources */,
+				CE745C092554452700BEF903 /* DIPPlayer.m in Sources */,
 				CE745B1A2551056A00BEF903 /* main.m in Sources */,
 				CE745B9F2552873F00BEF903 /* LSPController.m in Sources */,
+				CE745C212554459600BEF903 /* DIPChery.m in Sources */,
 				CE745BB125528ADE00BEF903 /* LSPDog.m in Sources */,
 				CE745B93255279BB00BEF903 /* OCPBook.m in Sources */,
 				CE745B65255115A900BEF903 /* SRPController.m in Sources */,
@@ -408,13 +448,17 @@
 				CE745BB725528C0900BEF903 /* LSPPerson.m in Sources */,
 				CE745BA525528A4C00BEF903 /* LSPAnimal.m in Sources */,
 				CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */,
+				CE745C152554456900BEF903 /* DIPFord.m in Sources */,
 				CE745B5725510F0700BEF903 /* BPresentModel.m in Sources */,
 				CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */,
+				CE745C032554449400BEF903 /* DIPController.m in Sources */,
 				CE745BAB25528ACE00BEF903 /* LSPCat.m in Sources */,
 				CE745B5525510F0700BEF903 /* BPresentController.m in Sources */,
 				CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */,
 				CE745B8625519E9D00BEF903 /* OCPController.m in Sources */,
 				CE745B9925527A1D00BEF903 /* OCPNewspaper.m in Sources */,
+				CE745BBD25528F8F00BEF903 /* ISPController.m in Sources */,
+				CE745C1B2554458200BEF903 /* DIPBenz.m in Sources */,
 				CE745B8D2552795F00BEF903 /* OCPMother.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
