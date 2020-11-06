@@ -37,6 +37,22 @@
 		CE745C1B2554458200BEF903 /* DIPBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C1A2554458200BEF903 /* DIPBenz.m */; };
 		CE745C212554459600BEF903 /* DIPChery.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C202554459600BEF903 /* DIPChery.m */; };
 		CE745C2F2554532900BEF903 /* LODController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C2E2554532900BEF903 /* LODController.m */; };
+		CE745C38255524C800BEF903 /* CouplingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C37255524C800BEF903 /* CouplingController.m */; };
+		CE745C412555254800BEF903 /* CohesionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C402555254800BEF903 /* CohesionController.m */; };
+		CE745C4B2555314A00BEF903 /* CRPController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C4A2555314A00BEF903 /* CRPController.m */; };
+		CE745C532555405A00BEF903 /* CCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C522555405A00BEF903 /* CCar.m */; };
+		CE745C5C2555409A00BEF903 /* CGasolineCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C5B2555409A00BEF903 /* CGasolineCar.m */; };
+		CE745C62255540B100BEF903 /* CElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C61255540B100BEF903 /* CElectricCar.m */; };
+		CE745C83255541D000BEF903 /* ICar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C82255541D000BEF903 /* ICar.m */; };
+		CE745C89255541EB00BEF903 /* IGasolineCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C88255541EA00BEF903 /* IGasolineCar.m */; };
+		CE745C8F255541FE00BEF903 /* IElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C8E255541FE00BEF903 /* IElectricCar.m */; };
+		CE745C952555426600BEF903 /* IWhiteGasolineCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C942555426600BEF903 /* IWhiteGasolineCar.m */; };
+		CE745C9B2555428600BEF903 /* IBlackGasolineCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745C9A2555428600BEF903 /* IBlackGasolineCar.m */; };
+		CE745CA12555429800BEF903 /* IRedGasolineCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CA02555429800BEF903 /* IRedGasolineCar.m */; };
+		CE745CA72555435000BEF903 /* IWhiteElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CA62555435000BEF903 /* IWhiteElectricCar.m */; };
+		CE745CAD2555437400BEF903 /* IBlackElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CAC2555437400BEF903 /* IBlackElectricCar.m */; };
+		CE745CB6255543A900BEF903 /* IRedElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CB5255543A900BEF903 /* IRedElectricCar.m */; };
+		CE745CC7255581AD00BEF903 /* CRPCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CC6255581AD00BEF903 /* CRPCompare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +140,38 @@
 		CE745C28255445C300BEF903 /* DIPCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPCar.h; sourceTree = "<group>"; };
 		CE745C2D2554532900BEF903 /* LODController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LODController.h; sourceTree = "<group>"; };
 		CE745C2E2554532900BEF903 /* LODController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LODController.m; sourceTree = "<group>"; };
+		CE745C36255524C800BEF903 /* CouplingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouplingController.h; sourceTree = "<group>"; };
+		CE745C37255524C800BEF903 /* CouplingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouplingController.m; sourceTree = "<group>"; };
+		CE745C3F2555254800BEF903 /* CohesionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CohesionController.h; sourceTree = "<group>"; };
+		CE745C402555254800BEF903 /* CohesionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CohesionController.m; sourceTree = "<group>"; };
+		CE745C492555314A00BEF903 /* CRPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPController.h; sourceTree = "<group>"; };
+		CE745C4A2555314A00BEF903 /* CRPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPController.m; sourceTree = "<group>"; };
+		CE745C512555405A00BEF903 /* CCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCar.h; sourceTree = "<group>"; };
+		CE745C522555405A00BEF903 /* CCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCar.m; sourceTree = "<group>"; };
+		CE745C5A2555409A00BEF903 /* CGasolineCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGasolineCar.h; sourceTree = "<group>"; };
+		CE745C5B2555409A00BEF903 /* CGasolineCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGasolineCar.m; sourceTree = "<group>"; };
+		CE745C60255540B100BEF903 /* CElectricCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CElectricCar.h; sourceTree = "<group>"; };
+		CE745C61255540B100BEF903 /* CElectricCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CElectricCar.m; sourceTree = "<group>"; };
+		CE745C81255541D000BEF903 /* ICar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICar.h; sourceTree = "<group>"; };
+		CE745C82255541D000BEF903 /* ICar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICar.m; sourceTree = "<group>"; };
+		CE745C87255541EA00BEF903 /* IGasolineCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGasolineCar.h; sourceTree = "<group>"; };
+		CE745C88255541EA00BEF903 /* IGasolineCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGasolineCar.m; sourceTree = "<group>"; };
+		CE745C8D255541FE00BEF903 /* IElectricCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IElectricCar.h; sourceTree = "<group>"; };
+		CE745C8E255541FE00BEF903 /* IElectricCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IElectricCar.m; sourceTree = "<group>"; };
+		CE745C932555426600BEF903 /* IWhiteGasolineCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWhiteGasolineCar.h; sourceTree = "<group>"; };
+		CE745C942555426600BEF903 /* IWhiteGasolineCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWhiteGasolineCar.m; sourceTree = "<group>"; };
+		CE745C992555428600BEF903 /* IBlackGasolineCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBlackGasolineCar.h; sourceTree = "<group>"; };
+		CE745C9A2555428600BEF903 /* IBlackGasolineCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBlackGasolineCar.m; sourceTree = "<group>"; };
+		CE745C9F2555429800BEF903 /* IRedGasolineCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRedGasolineCar.h; sourceTree = "<group>"; };
+		CE745CA02555429800BEF903 /* IRedGasolineCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRedGasolineCar.m; sourceTree = "<group>"; };
+		CE745CA52555435000BEF903 /* IWhiteElectricCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWhiteElectricCar.h; sourceTree = "<group>"; };
+		CE745CA62555435000BEF903 /* IWhiteElectricCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWhiteElectricCar.m; sourceTree = "<group>"; };
+		CE745CAB2555437400BEF903 /* IBlackElectricCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBlackElectricCar.h; sourceTree = "<group>"; };
+		CE745CAC2555437400BEF903 /* IBlackElectricCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBlackElectricCar.m; sourceTree = "<group>"; };
+		CE745CB4255543A900BEF903 /* IRedElectricCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRedElectricCar.h; sourceTree = "<group>"; };
+		CE745CB5255543A900BEF903 /* IRedElectricCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRedElectricCar.m; sourceTree = "<group>"; };
+		CE745CC5255581AD00BEF903 /* CRPCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPCompare.h; sourceTree = "<group>"; };
+		CE745CC6255581AD00BEF903 /* CRPCompare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPCompare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,12 +227,15 @@
 				CE745B0D2551056600BEF903 /* ViewController.h */,
 				CE745B0E2551056600BEF903 /* ViewController.m */,
 				CE745B4525510F0700BEF903 /* BasePresent */,
-				CE745B3F25510CDD00BEF903 /* SRP */,
 				CE745B4025510D0000BEF903 /* OCP */,
+				CE745B3F25510CDD00BEF903 /* SRP */,
 				CE745B4125510D1900BEF903 /* LSP */,
 				CE745B4425510D7A00BEF903 /* LOD */,
 				CE745B4225510D2100BEF903 /* ISP */,
 				CE745B4325510D2800BEF903 /* DIP */,
+				CE745C482555312100BEF903 /* CRP */,
+				CE745C342555240100BEF903 /* Cohesion */,
+				CE745C352555241300BEF903 /* Coupling */,
 				CE745B132551056A00BEF903 /* Assets.xcassets */,
 				CE745B152551056A00BEF903 /* LaunchScreen.storyboard */,
 				CE745B182551056A00BEF903 /* Info.plist */,
@@ -310,6 +361,91 @@
 				CE745B4E25510F0700BEF903 /* BPWebViewController.m */,
 			);
 			path = BasePresent;
+			sourceTree = "<group>";
+		};
+		CE745C342555240100BEF903 /* Cohesion */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C3F2555254800BEF903 /* CohesionController.h */,
+				CE745C402555254800BEF903 /* CohesionController.m */,
+			);
+			path = Cohesion;
+			sourceTree = "<group>";
+		};
+		CE745C352555241300BEF903 /* Coupling */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C36255524C800BEF903 /* CouplingController.h */,
+				CE745C37255524C800BEF903 /* CouplingController.m */,
+			);
+			path = Coupling;
+			sourceTree = "<group>";
+		};
+		CE745C482555312100BEF903 /* CRP */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C492555314A00BEF903 /* CRPController.h */,
+				CE745C4A2555314A00BEF903 /* CRPController.m */,
+				CE745CBC25557B0D00BEF903 /* Compare1 */,
+				CE745CBB25557AFE00BEF903 /* Compare */,
+			);
+			path = CRP;
+			sourceTree = "<group>";
+		};
+		CE745C4F25553FC600BEF903 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C81255541D000BEF903 /* ICar.h */,
+				CE745C82255541D000BEF903 /* ICar.m */,
+				CE745C87255541EA00BEF903 /* IGasolineCar.h */,
+				CE745C88255541EA00BEF903 /* IGasolineCar.m */,
+				CE745C932555426600BEF903 /* IWhiteGasolineCar.h */,
+				CE745C942555426600BEF903 /* IWhiteGasolineCar.m */,
+				CE745C992555428600BEF903 /* IBlackGasolineCar.h */,
+				CE745C9A2555428600BEF903 /* IBlackGasolineCar.m */,
+				CE745C9F2555429800BEF903 /* IRedGasolineCar.h */,
+				CE745CA02555429800BEF903 /* IRedGasolineCar.m */,
+				CE745C8D255541FE00BEF903 /* IElectricCar.h */,
+				CE745C8E255541FE00BEF903 /* IElectricCar.m */,
+				CE745CA52555435000BEF903 /* IWhiteElectricCar.h */,
+				CE745CA62555435000BEF903 /* IWhiteElectricCar.m */,
+				CE745CAB2555437400BEF903 /* IBlackElectricCar.h */,
+				CE745CAC2555437400BEF903 /* IBlackElectricCar.m */,
+				CE745CB4255543A900BEF903 /* IRedElectricCar.h */,
+				CE745CB5255543A900BEF903 /* IRedElectricCar.m */,
+			);
+			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		CE745C5025553FD400BEF903 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C512555405A00BEF903 /* CCar.h */,
+				CE745C522555405A00BEF903 /* CCar.m */,
+				CE745C5A2555409A00BEF903 /* CGasolineCar.h */,
+				CE745C5B2555409A00BEF903 /* CGasolineCar.m */,
+				CE745C60255540B100BEF903 /* CElectricCar.h */,
+				CE745C61255540B100BEF903 /* CElectricCar.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		CE745CBB25557AFE00BEF903 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				CE745C5025553FD400BEF903 /* Composite */,
+				CE745C4F25553FC600BEF903 /* Inheritance */,
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		CE745CBC25557B0D00BEF903 /* Compare1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE745CC5255581AD00BEF903 /* CRPCompare.h */,
+				CE745CC6255581AD00BEF903 /* CRPCompare.m */,
+			);
+			path = Compare1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,18 +581,32 @@
 				CE745C092554452700BEF903 /* DIPPlayer.m in Sources */,
 				CE745B1A2551056A00BEF903 /* main.m in Sources */,
 				CE745B9F2552873F00BEF903 /* LSPController.m in Sources */,
+				CE745CAD2555437400BEF903 /* IBlackElectricCar.m in Sources */,
 				CE745C212554459600BEF903 /* DIPChery.m in Sources */,
+				CE745C8F255541FE00BEF903 /* IElectricCar.m in Sources */,
 				CE745BB125528ADE00BEF903 /* LSPDog.m in Sources */,
 				CE745B93255279BB00BEF903 /* OCPBook.m in Sources */,
+				CE745C5C2555409A00BEF903 /* CGasolineCar.m in Sources */,
+				CE745CC7255581AD00BEF903 /* CRPCompare.m in Sources */,
 				CE745B65255115A900BEF903 /* SRPController.m in Sources */,
 				CE745B5425510F0700BEF903 /* BPresendHeaderView.m in Sources */,
+				CE745C532555405A00BEF903 /* CCar.m in Sources */,
 				CE745BB725528C0900BEF903 /* LSPPerson.m in Sources */,
+				CE745C62255540B100BEF903 /* CElectricCar.m in Sources */,
+				CE745C412555254800BEF903 /* CohesionController.m in Sources */,
+				CE745CA12555429800BEF903 /* IRedGasolineCar.m in Sources */,
+				CE745C4B2555314A00BEF903 /* CRPController.m in Sources */,
+				CE745C89255541EB00BEF903 /* IGasolineCar.m in Sources */,
 				CE745BA525528A4C00BEF903 /* LSPAnimal.m in Sources */,
+				CE745CA72555435000BEF903 /* IWhiteElectricCar.m in Sources */,
 				CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */,
 				CE745C152554456900BEF903 /* DIPFord.m in Sources */,
 				CE745B5725510F0700BEF903 /* BPresentModel.m in Sources */,
 				CE745B5925510F0700BEF903 /* BPWebViewController.m in Sources */,
 				CE745C032554449400BEF903 /* DIPController.m in Sources */,
+				CE745CB6255543A900BEF903 /* IRedElectricCar.m in Sources */,
+				CE745C952555426600BEF903 /* IWhiteGasolineCar.m in Sources */,
+				CE745C83255541D000BEF903 /* ICar.m in Sources */,
 				CE745BAB25528ACE00BEF903 /* LSPCat.m in Sources */,
 				CE745B5525510F0700BEF903 /* BPresentController.m in Sources */,
 				CE745B5825510F0700BEF903 /* BPresentItemModel.m in Sources */,
@@ -466,6 +616,8 @@
 				CE745BBD25528F8F00BEF903 /* ISPController.m in Sources */,
 				CE745C1B2554458200BEF903 /* DIPBenz.m in Sources */,
 				CE745B8D2552795F00BEF903 /* OCPMother.m in Sources */,
+				CE745C38255524C800BEF903 /* CouplingController.m in Sources */,
+				CE745C9B2555428600BEF903 /* IBlackGasolineCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
