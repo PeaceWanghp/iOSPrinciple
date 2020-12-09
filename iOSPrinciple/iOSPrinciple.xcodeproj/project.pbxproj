@@ -12,8 +12,6 @@
 		CE745B142551056A00BEF903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE745B132551056A00BEF903 /* Assets.xcassets */; };
 		CE745B172551056A00BEF903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE745B152551056A00BEF903 /* LaunchScreen.storyboard */; };
 		CE745B1A2551056A00BEF903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B192551056A00BEF903 /* main.m */; };
-		CE745B242551056A00BEF903 /* iOSPrincipleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B232551056A00BEF903 /* iOSPrincipleTests.m */; };
-		CE745B2F2551056B00BEF903 /* iOSPrincipleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B2E2551056B00BEF903 /* iOSPrincipleUITests.m */; };
 		CE745B5325510F0700BEF903 /* BPresentHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4825510F0700BEF903 /* BPresentHeaderModel.m */; };
 		CE745B5425510F0700BEF903 /* BPresendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4925510F0700BEF903 /* BPresendHeaderView.m */; };
 		CE745B5525510F0700BEF903 /* BPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745B4A25510F0700BEF903 /* BPresentController.m */; };
@@ -55,23 +53,6 @@
 		CE745CC7255581AD00BEF903 /* CRPCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CC6255581AD00BEF903 /* CRPCompare.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CE745B202551056A00BEF903 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE745AFC2551056600BEF903 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE745B032551056600BEF903;
-			remoteInfo = iOSPrinciple;
-		};
-		CE745B2B2551056B00BEF903 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE745AFC2551056600BEF903 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE745B032551056600BEF903;
-			remoteInfo = iOSPrinciple;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		CE745B042551056600BEF903 /* iOSPrinciple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPrinciple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE745B072551056600BEF903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,12 +63,6 @@
 		CE745B162551056A00BEF903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE745B182551056A00BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE745B192551056A00BEF903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE745B1F2551056A00BEF903 /* iOSPrincipleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPrincipleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE745B232551056A00BEF903 /* iOSPrincipleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPrincipleTests.m; sourceTree = "<group>"; };
-		CE745B252551056A00BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE745B2A2551056B00BEF903 /* iOSPrincipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPrincipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE745B2E2551056B00BEF903 /* iOSPrincipleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPrincipleUITests.m; sourceTree = "<group>"; };
-		CE745B302551056B00BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE745B4625510F0700BEF903 /* BPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPWebViewController.h; sourceTree = "<group>"; };
 		CE745B4725510F0700BEF903 /* BPresentItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentItemModel.h; sourceTree = "<group>"; };
 		CE745B4825510F0700BEF903 /* BPresentHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentHeaderModel.m; sourceTree = "<group>"; };
@@ -182,20 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE745B1C2551056A00BEF903 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE745B272551056B00BEF903 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -203,8 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				CE745B062551056600BEF903 /* iOSPrinciple */,
-				CE745B222551056A00BEF903 /* iOSPrincipleTests */,
-				CE745B2D2551056B00BEF903 /* iOSPrincipleUITests */,
 				CE745B052551056600BEF903 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -213,8 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				CE745B042551056600BEF903 /* iOSPrinciple.app */,
-				CE745B1F2551056A00BEF903 /* iOSPrincipleTests.xctest */,
-				CE745B2A2551056B00BEF903 /* iOSPrincipleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,24 +199,6 @@
 				CE745B192551056A00BEF903 /* main.m */,
 			);
 			path = iOSPrinciple;
-			sourceTree = "<group>";
-		};
-		CE745B222551056A00BEF903 /* iOSPrincipleTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE745B232551056A00BEF903 /* iOSPrincipleTests.m */,
-				CE745B252551056A00BEF903 /* Info.plist */,
-			);
-			path = iOSPrincipleTests;
-			sourceTree = "<group>";
-		};
-		CE745B2D2551056B00BEF903 /* iOSPrincipleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE745B2E2551056B00BEF903 /* iOSPrincipleUITests.m */,
-				CE745B302551056B00BEF903 /* Info.plist */,
-			);
-			path = iOSPrincipleUITests;
 			sourceTree = "<group>";
 		};
 		CE745B3F25510CDD00BEF903 /* SRP */ = {
@@ -468,42 +407,6 @@
 			productReference = CE745B042551056600BEF903 /* iOSPrinciple.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE745B1E2551056A00BEF903 /* iOSPrincipleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE745B362551056B00BEF903 /* Build configuration list for PBXNativeTarget "iOSPrincipleTests" */;
-			buildPhases = (
-				CE745B1B2551056A00BEF903 /* Sources */,
-				CE745B1C2551056A00BEF903 /* Frameworks */,
-				CE745B1D2551056A00BEF903 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE745B212551056A00BEF903 /* PBXTargetDependency */,
-			);
-			name = iOSPrincipleTests;
-			productName = iOSPrincipleTests;
-			productReference = CE745B1F2551056A00BEF903 /* iOSPrincipleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CE745B292551056B00BEF903 /* iOSPrincipleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE745B392551056B00BEF903 /* Build configuration list for PBXNativeTarget "iOSPrincipleUITests" */;
-			buildPhases = (
-				CE745B262551056B00BEF903 /* Sources */,
-				CE745B272551056B00BEF903 /* Frameworks */,
-				CE745B282551056B00BEF903 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE745B2C2551056B00BEF903 /* PBXTargetDependency */,
-			);
-			name = iOSPrincipleUITests;
-			productName = iOSPrincipleUITests;
-			productReference = CE745B2A2551056B00BEF903 /* iOSPrincipleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -514,14 +417,6 @@
 				TargetAttributes = {
 					CE745B032551056600BEF903 = {
 						CreatedOnToolsVersion = 12.1;
-					};
-					CE745B1E2551056A00BEF903 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = CE745B032551056600BEF903;
-					};
-					CE745B292551056B00BEF903 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = CE745B032551056600BEF903;
 					};
 				};
 			};
@@ -539,8 +434,6 @@
 			projectRoot = "";
 			targets = (
 				CE745B032551056600BEF903 /* iOSPrinciple */,
-				CE745B1E2551056A00BEF903 /* iOSPrincipleTests */,
-				CE745B292551056B00BEF903 /* iOSPrincipleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -552,20 +445,6 @@
 			files = (
 				CE745B172551056A00BEF903 /* LaunchScreen.storyboard in Resources */,
 				CE745B142551056A00BEF903 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE745B1D2551056A00BEF903 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE745B282551056B00BEF903 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,36 +500,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE745B1B2551056A00BEF903 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE745B242551056A00BEF903 /* iOSPrincipleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE745B262551056B00BEF903 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE745B2F2551056B00BEF903 /* iOSPrincipleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE745B212551056A00BEF903 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE745B032551056600BEF903 /* iOSPrinciple */;
-			targetProxy = CE745B202551056A00BEF903 /* PBXContainerItemProxy */;
-		};
-		CE745B2C2551056B00BEF903 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE745B032551056600BEF903 /* iOSPrinciple */;
-			targetProxy = CE745B2B2551056B00BEF903 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE745B152551056A00BEF903 /* LaunchScreen.storyboard */ = {
@@ -812,78 +662,6 @@
 			};
 			name = Release;
 		};
-		CE745B372551056B00BEF903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSPrincipleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrincipleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPrinciple.app/iOSPrinciple";
-			};
-			name = Debug;
-		};
-		CE745B382551056B00BEF903 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSPrincipleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrincipleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPrinciple.app/iOSPrinciple";
-			};
-			name = Release;
-		};
-		CE745B3A2551056B00BEF903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSPrincipleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrincipleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSPrinciple;
-			};
-			name = Debug;
-		};
-		CE745B3B2551056B00BEF903 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSPrincipleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPrincipleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSPrinciple;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -901,24 +679,6 @@
 			buildConfigurations = (
 				CE745B342551056B00BEF903 /* Debug */,
 				CE745B352551056B00BEF903 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE745B362551056B00BEF903 /* Build configuration list for PBXNativeTarget "iOSPrincipleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE745B372551056B00BEF903 /* Debug */,
-				CE745B382551056B00BEF903 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE745B392551056B00BEF903 /* Build configuration list for PBXNativeTarget "iOSPrincipleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE745B3A2551056B00BEF903 /* Debug */,
-				CE745B3B2551056B00BEF903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
