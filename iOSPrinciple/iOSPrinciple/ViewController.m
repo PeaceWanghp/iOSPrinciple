@@ -31,7 +31,7 @@
     [self.model appendOpenedHeader:@"Principle(设计原则):"];
     [self.model appendDarkItemWithTitle:@"Open Close Principle\n开闭原则：总的指导思想"
                                   class:[OCPController class]];
-    [self.model appendDarkItemWithTitle:@"Law Of Demeter\n迪米特法则/最少知道原则：总的指导思想(高内聚，低耦合)"
+    [self.model appendDarkItemWithTitle:@"Law Of Demeter\n迪米特法则/最少知道原则：指导类设计(高内聚，低耦合)"
                                   class:[LODController class]];
     [self.model appendDarkItemWithTitle:@"Single Responsibility Principle\n单一职责原则：指导类设计"
                                   class:[SRPController class]];
